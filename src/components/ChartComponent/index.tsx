@@ -3,7 +3,7 @@ import Chart from "react-apexcharts"
 const ChartComponent = () => {
     const options = {
         chart: {
-            type: 'area',
+            type: "area",
         },
         xaxis: {
             labels: {
