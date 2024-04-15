@@ -1,0 +1,126 @@
+import DataTable from "react-data-table-component";
+
+const Table = () => {
+    const columns = [
+        {name: 'Nome do Produto', selector: (row:any) => row.productName, sortable: true},
+        {name: 'Localização', selector: (row:any) => row.location, sortable: true},
+        {name: 'Data', selector: (row:any) => row.date, sortable: true},
+        {name: 'Quantidade', selector: (row:any) => row.quantity, sortable: true},
+        {name: 'Preço', selector: (row:any) => row.totalPrice, sortable: true},
+        {name: 'Status', selector: (row:any) => row.status, sortable: true},
+    ];
+    const data = [
+        {
+            id: 1,
+            productName: "Apple watch 3 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$896",
+            status: <div className="bg-[#00B69B] rounded-full px-3 py-1 text-white">Entregue</div>,
+        },
+        {
+            id: 2,
+            productName: "Iphone 12 Pro",
+            location: "8093 BC,Vancouver",
+            date: "05.06.2024",
+            quantity: "1",
+            totalPrice: "$735",
+            status: <div className="bg-[#e9b434] rounded-full px-3 py-1 text-white">Pendente</div>,
+        },
+        {
+            id: 3,
+            productName: "Apple watch 4 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$896",
+            status: <div className="bg-[#f93c65] rounded-full px-3 py-1 text-white">Cancelada</div>,
+        },
+        {
+            id: 4,
+            productName: "Apple watch 1 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$896",
+            status: <div className="bg-[#00B69B] rounded-full px-3 py-1 text-white">Entregue</div>,
+        },
+        {
+            id: 5,
+            productName: "Iphone 13 Pro",
+            location: "8093 BC,Vancouver",
+            date: "05.06.2024",
+            quantity: "2",
+            totalPrice: "$1735",
+            status: <div className="bg-[#e9b434] rounded-full px-3 py-1 text-white">Pendente</div>,
+        },
+        {
+            id: 6,
+            productName: "Apple watch 3 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$896",
+            status: <div className="bg-[#f93c65] rounded-full px-3 py-1 text-white">Cancelada</div>,
+        },
+        {
+            id: 7,
+            productName: "Apple watch 2 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "4",
+            totalPrice: "$896",
+            status: <div className="bg-[#00B69B] rounded-full px-3 py-1 text-white">Entregue</div>,
+        },
+        {
+            id: 8,
+            productName: "Iphone 15 Pro",
+            location: "8093 BC,Vancouver",
+            date: "05.06.2024",
+            quantity: "1",
+            totalPrice: "$535",
+            status: <div className="bg-[#e9b434] rounded-full px-3 py-1 text-white">Pendente</div>,
+        },
+        {
+            id: 9,
+            productName: "Apple watch 5 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$1896",
+            status: <div className="bg-[#f93c65] rounded-full px-3 py-1 text-white">Cancelada</div>,
+        },
+        {
+            id: 10,
+            productName: "Apple watch 1 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "3",
+            totalPrice: "$296",
+            status: <div className="bg-[#00B69B] rounded-full px-3 py-1 text-white">Entregue</div>,
+        },
+        {
+            id: 11,
+            productName: "Iphone 14 Pro",
+            location: "8093 BC,Vancouver",
+            date: "05.06.2024",
+            quantity: "2",
+            totalPrice: "$1735",
+            status: <div className="bg-[#e9b434] rounded-full px-3 py-1 text-white">Pendente</div>,
+        },
+        {
+            id: 12,
+            productName: "Apple watch 3 series",
+            location: "6096 Marjolaine Landing",
+            date: "12.09.2024",
+            quantity: "1",
+            totalPrice: "$596",
+            status: <div className="bg-[#f93c65] rounded-full px-3 py-1 text-white">Cancelada</div>,
+        },
+    ];
+  return <DataTable columns={columns} data={data} pagination></DataTable>
+  
+}
+
+export default Table
