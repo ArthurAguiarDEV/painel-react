@@ -1,4 +1,4 @@
-# Bem-vindo ao Projeto Painel de Controle - React !
+# Bem-vindo ao Projeto Painel de Controle - React ⚙️ !
 
 Este é um Projeto de Painel de Controle - React, desenvolvido com React e tailwindcss. O Projeto é uma amostra de como criar dashboard simples e adaptável a uma variedade de dispositivos, desde desktops até dispositivos móveis, incluindo tabelas e gráficos.
 
@@ -23,4 +23,4 @@ Flexibilidade e adaptabilidade: O layout do Projeto é construído utilizando ta
 
 Sinta-se à vontade para explorar o código-fonte do projeto e contribuir com sugestões, correções ou novos recursos.
 
-O Painel de Controle - React é um projeto bem simples para poder reforçar os seus conhecimentos em React. Agradecemos por seu interesse  neste projeto ✏️📔🧠 ! 
+O Painel de Controle - React é um projeto bem simples para poder reforçar os seus conhecimentos em React. Agradecemos por seu interesse  neste projeto ⚙️ ! 
