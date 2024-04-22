@@ -1,6 +1,6 @@
 # Bem-vindo ao Projeto Painel de Controle - React !
 
-Este é um Projeto de Painel de Controle - React, desenvolvido com React e tailwindcss. O Projeto Quiz App é uma amostra de como criar um aplicativo de perguntas e respostas simples e adaptável a uma variedade de dispositivos, desde desktops até dispositivos móveis.
+Este é um Projeto de Painel de Controle - React, desenvolvido com React e tailwindcss. O Projeto é uma amostra de como criar dashboard simples e adaptável a uma variedade de dispositivos, desde desktops até dispositivos móveis, incluindo tabelas e gráficos.
 
 ## LINK PREVIEW 👨‍💻
 https://quizappdev.netlify.app/
