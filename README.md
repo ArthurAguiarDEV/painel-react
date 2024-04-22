@@ -3,7 +3,7 @@
 Este é um Projeto de Painel de Controle - React, desenvolvido com React e tailwindcss. O Projeto é uma amostra de como criar dashboard simples e adaptável a uma variedade de dispositivos, desde desktops até dispositivos móveis, incluindo tabelas e gráficos.
 
 ## LINK PREVIEW 👨‍💻
-https://quizappdev.netlify.app/
+https://reactpainelteste.netlify.app/
 
 ## 🚀 Começando
 
